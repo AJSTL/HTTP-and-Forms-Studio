@@ -13,12 +13,24 @@
 <body>
 
 	<form id="searchForm">
-		<label>name<input type="text" name="q"/></label>
+		<label><input type="text" name="q"/></label><br>
+		<label><input type="radio" name="searchEngine"/> Google</label><br>
+		<label><input type="radio" name="searchEngine"/> DuckDuckGo</label><br>
+		<label><input type="radio" name="searchEngine"/> Bing</label><br>
+		<label><input type="radio" name="searchEngine"/> Ask</label>
+		<br>
+
+		<button>Search!</button>
 	</form>
 
 </body>
 
 <!-- 
+Create a text input within the form and set its name attribute to the value "q".
+Create a radio group with one radio button for each search engine. Recall that radio buttons with the same name are grouped, so use the same value for this attribute, "engine", on each radio button.
+Create a label element for each radio button.
+Finally, add a submit button to the form and set it's value to "Go!".
+
 https://www.google.com/search?safe=strict&sxsrf=ACYBGNRopfh0AEgSB9MrWLawDBoQi6fyCA%3A1572479152073&source=hp&ei=sCC6XbCgAcnwsQXlm5GIBA&q=launchcode&oq=launchcode&gs_l=psy-ab.3..35i39l2j0i20i263j0l3j0i20i263j0l3.35078.36289..36380...3.0..0.102.639.8j1......0....1..gws-wiz.....10..35i362i39j0i131j0i131i67j0i67.lOg5oSPvq6Q&ved=0ahUKEwiwuJeqlcXlAhVJeKwKHeVNBEEQ4dUDCAg&uact=5
 https://duckduckgo.com/?q=launchcode&t=hk&ia=web
 https://www.bing.com/search?q=launchcode&qs=n&form=QBLH&sp=-1&pq=launch&sc=8-6&sk=&cvid=D854321EF6254228882E0ACA0CB36110
